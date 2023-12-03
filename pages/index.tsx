@@ -1,13 +1,21 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+// pages/index.tsx
+import MyComponent from '../components/Mycomponents';
+import {
+  HomePageContainer,
+  HomePageTitle,
+  MyComponentContainer,
+  MyComponentMessage,
+} from '../styles/HomePageStyles'; // Impor styled-components
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
-  </Layout>
-)
+const HomePage: React.FC = () => {
+  return (
+    <HomePageContainer>
+      <HomePageTitle>Book Store</HomePageTitle>
+      <MyComponentContainer>
+        <MyComponentMessage>Apa yang bisa kami bantu?</MyComponentMessage>
+      </MyComponentContainer>
+    </HomePageContainer>
+  );
+};
 
-export default IndexPage
+export default HomePage;

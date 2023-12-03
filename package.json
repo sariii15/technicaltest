@@ -7,14 +7,27 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@nestjs/mongoose": "^10.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.2",
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "typescript": "^4.8.3"
-  }
+  },
+  "name": "perpustakaan",
+  "description": "This is a really simple project that shows the usage of Next.js with TypeScript.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
